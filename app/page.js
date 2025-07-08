@@ -1,11 +1,11 @@
 
 import Footer from '@/components/Footer'
-import { AppleCardsCarouselDemo } from '@/pages/AppleCardsCarouselDemo'
-import { CardHoverEffectDemo } from '@/pages/CardHoverEffectDemo'
-import { BackgroundLinesDemo } from '@/pages/Hero'
-import { HeroScrollDemo } from '@/pages/HeroScrollDemo'
-import { InfiniteMovingCardsDemo } from '@/pages/InfiniteMovingCardsDemo'
-import { NavbarDemo } from '@/pages/NavbarDemo'
+import { AppleCardsCarouselDemo } from '@/components/AppleCardsCarouselDemo'
+import { CardHoverEffectDemo } from '@/components/CardHoverEffectDemo'
+import { BackgroundLinesDemo } from '@/components/Hero'
+import { HeroScrollDemo } from '@/components/HeroScrollDemo'
+import { InfiniteMovingCardsDemo } from '@/components/InfiniteMovingCardsDemo'
+import { NavbarDemo } from '@/components/NavbarDemo'
 
 
 import React from 'react'
