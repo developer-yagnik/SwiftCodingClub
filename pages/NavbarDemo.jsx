@@ -40,7 +40,7 @@ export function NavbarDemo() {
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
 
-            <NavbarButton variant="primary">Resources</NavbarButton>
+            <NavbarButton variant="primary" className="rounded-full">Resources</NavbarButton>
           </div>
         </NavBody>
 
@@ -69,7 +69,7 @@ export function NavbarDemo() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full">
-                Book a call
+                Resources
               </NavbarButton>
             </div>
           </MobileNavMenu>
