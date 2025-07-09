@@ -3,6 +3,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const fadeInUp = {
@@ -43,11 +44,13 @@ const Footer = () => {
           variants={fadeInUp}
         >
           <div>
-            <h2 className="font-semibold mb-5">Club</h2>
-            <ul className="text-sm space-y-2">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Contact</a></li>
+            <h2 className="font-semibold mb-5">Resources Link</h2>
+            <ul className="text-sm space-y-2 ">
+             <li className="transition-all duration-500 hover:underline underline-offset-4"><a href="#">Home</a></li>
+              <Link  className="transition-all duration-500 hover:underline underline-offset-4" href="./resources">
+                 <li>Resources</li>
+              </Link>
+           
             </ul>
           </div>
           <div>
