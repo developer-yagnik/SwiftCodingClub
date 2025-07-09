@@ -2,6 +2,7 @@
 import React from "react";
 import { BackgroundLines } from "@/components/ui/background-lines";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 
 export function BackgroundLinesDemo() {
@@ -24,21 +25,20 @@ export function BackgroundLinesDemo() {
         transition={{ duration: 0.3 }}
         className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
       >
-        <button
-          className="w-36 md:w-60 transform rounded-lg bg-black px-4 md:px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200"
+         <a
+          href="#hero-scroll"
+          className="w-36 md:w-60 transform rounded-lg bg-black px-4 md:px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 text-center"
         >
           Explore Now
-        </button>
-        <button
-          className="w-36 md:w-60 transform rounded-lg border border-gray-300 bg-white px-3 md:px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900"
-        >
-          Contact Support
-        </button>
+        </a>
+        <Link href="/resources">
+          <button
+            className="w-36 md:w-60 transform rounded-lg border border-gray-300 bg-white px-3 md:px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900"
+          >
+           Resources
+          </button>
+        </Link>
       </motion.div>
-
-
-
-
     </BackgroundLines>
 
   );
