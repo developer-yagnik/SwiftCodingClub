@@ -10,7 +10,7 @@ export function BackgroundLinesDemo() {
     <BackgroundLines id="home" className="flex items-center justify-center w-full flex-col px-4">
       <h2
         className="md:mt-0 bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-5xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-        Swift Coding Club, <br /> Parul University.
+        Swift Coding Club, <br /> Parul University
       </h2>
 
       <p
